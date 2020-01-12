@@ -1,1 +1,1 @@
-# www.schmidbauer.cz
+# vpn.schmidbauer.cz
