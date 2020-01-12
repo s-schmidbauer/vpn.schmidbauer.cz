@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>schmidbauer.cz - IT consulting and services</title>
+  <meta name="description" content="Secure Cloud, Mail and more services in Czechia">
+  <meta name="author" content="Stefan Schmidbauer">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="css/raleway.css" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="navbar-spacer"></div>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/#services">Services</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/#security">Security</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/#contact">Contact</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://cloud.schmidbauer.cz" target="_blank">Cloud</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://mail.schmidbauer.cz" target="_blank">Mail</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="intro-small">
+      <h3 class="intro-logo">schmidbauer</h3>
+      <h6 class="intro-header">IT consulting & services</h6>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Signup for free VPN</h2>
+      <h5 class="services-security-description">Just enter your email</h5>
+      <hr>
+      <form action="https://formspree.io/myyekgan" method="POST">
+        <label>Your email: <input type="email" name="_email" maxlength="30" size="30"></label>
+        <p>You receive a message once your account is ready</p>
+        <p>* Free VPNs have a speed limit</p>
+        <button type="submit" name="free" value="free">Sign up for free</button>
+    </div>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Download profile</h2>
+      <h5 class="services-security-description">CA, cert and key</h5>
+      <hr>
+      <ul class="services-security">
+        <li>Your account is ready? Get your profile. You need:</li>
+        <li>* CA cert - ca.pfx</li>
+        <li>* Personal cert and key - <i>username</i>.pfx</li>
+        <li>-</li>
+        <li>To get it, go to <code>https://vpn.schmidbauer.cz/<i>username</i></code></li>
+        <li>Login with username and password</li>
+        <li>* Download .zip for Windows + MacOS
+        <li>* Download .tar.gz for Android + Linux
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Setup VPN</h2>
+      <h5 class="services-security-description">Getting things going</h5>
+      <hr>
+      <ul class="services-security">
+        <li>You got your files downloaded? Install both the CA and Personal cert and key.</li>
+        <li>Make sure the CA "<code>vpn.schmidbauer.cz</code>" is trusted.</li>
+        <li>-</li>
+        <li>Create a IKEv2 VPN connection.</li>
+        <li><strong>Server</strong>: <code>vpn.schmidbauer.cz</code></li>
+        <li><strong>Remote ID:</strong>: <code>vpn.schmidbauer.cz</code></li>
+        <li><strong>Local ID:</strong>: <code>username</code></li>
+        <li><strong>Authentication</strong>: none</li>
+        <li><strong>Certificate</strong>: Select installed certificate with your <i>username</i></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Need help?</h2>
+      <h5 class="services-security-description">Contact us</h5>
+      <hr>
+      <p>Just <a href="https://www.schmidbauer.cz/#contact">contact</a> us by Phone, Email, WhatsApp ..</p>
+    </div>
+  </div>
+
+</body>
+</html>
