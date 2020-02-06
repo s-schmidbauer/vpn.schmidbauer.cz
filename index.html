@@ -56,13 +56,12 @@
   <div class="section-small services" id="services">
     <div class="container">
       <h2 class="services-security-header">Get free VPN</h2>
-      <h5 class="services-security-description">Just sign up. Free Ad blocking!</h5>
+      <h5 class="services-security-description">Just sign up. Ad blocking included.</h5>
       <hr>
       <form action="https://formspree.io/myyekgan" method="POST">
         <label>Your email: <input type="email" name="_email" maxlength="40" size="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
         <p>You receive a mail once your account is ready.</p>
-        <p>* Yes, the VPN is <strong>really</strong> free.</p>
-        <p>** No contract or obligations.</p>
+        <p>The VPN is <strong>really</strong> free. No obligations!</p>
         <button type="submit" name="free" value="free">Sign up for free</button>
     </div>
   </div>
@@ -73,9 +72,7 @@
       <h5 class="services-security-description">CA, cert and key</h5>
       <hr>
       <ul class="services-security">
-        <li>We've sent you your profile link by email.</li>
-        <li>Use .zip for iPhone/iPad + Windows + Mac</li>
-        <li>Use .tar.gz for Android + Linux</li>
+        <li>We've sent you your profile link and password by email. Use the password when asked.</li>
         <li>Install both the <code>ca.pfx</code> and <code>your_at_email.com.pfx</code></li>
         <li>Make sure the CA "<code>vpn.schmidbauer.cz</code>" is marked <strong>fully trusted</strong>.</li>
       </ul>
@@ -88,13 +85,17 @@
       <h5 class="services-security-description">Getting things going</h5>
       <hr>
       <ul class="services-security">
-        <li>Create a IKEv2 VPN with settings:</li>
+        <li>Create a IKEv2 VPN below settings</li>
+        <li>-</li>
+        <li><strong>For Mac</strong></li>
         <li><strong>Server</strong>: <code>vpn.schmidbauer.cz</code></li>
         <li><strong>Remote ID</strong>: <code>vpn.schmidbauer.cz</code></li>
         <li><strong>Local ID</strong>: <code>your_at_email.com</code></li>
         <li><strong>Authentication</strong>: none</li>
         <li><strong>Certificate</strong>: Select installed certificate with <code>your_at_email.com</code></li>
         <li><strong>Connect and surf safely!</strong></li>
+        <li>-</li>
+        <li><strong>For Windows</strong>, check this <a href="https://wiki.strongswan.org/projects/strongswan/wiki/Win7UserConfig" target="_blank">guide</a></li>
       </ul>
     </div>
   </div>
