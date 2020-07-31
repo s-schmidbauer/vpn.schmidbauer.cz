@@ -14,7 +14,6 @@ a {
   text-decoration: none;
 }
 
-
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -75,6 +74,8 @@ a {
 }
 .services-security {
   list-style-type: none;
+  /* text-align: left;
+  padding-left: 25%; */
 }
 
 /* Security
@@ -127,6 +128,10 @@ a {
     float: left;
     margin-bottom: 0; }
   .navbar-item-special {
+    position: relative;
+    float: right;
+    margin-bottom: 0; }
+  .navbar-item-lang {
     position: relative;
     float: right;
     margin-bottom: 0; }
