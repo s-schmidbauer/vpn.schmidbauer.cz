@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>schmidbauer.cz - IT poradenství a služby</title>
+  <meta name="description" content="Zabezpečené cloudové, poštovní a další služby">
+  <meta name="author" content="Stefan Schmidbauer">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="../css/raleway.css" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="navbar-spacer"></div>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/cz/#services">Služby</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/cz/#security">Zabezpečení</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/cz/#contact">Kontakt</a></li>
+        <li class="navbar-item-lang"><a class="navbar-link-lang" href="https://vpn.schmidbauer.cz/cz/">CZ</a></li>
+        <li class="navbar-item-lang"><a class="navbar-link-lang" href="https://vpn.schmidbauer.cz/de/">DE</a></li>
+        <li class="navbar-item-lang"><a class="navbar-link-lang" href="https://vpn.schmidbauer.cz/en/">EN</a></li>
+        <li class="navbar-item-lang"><a class="navbar-link-lang">-</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://stream.schmidbauer.cz" target="_blank">Stream</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://vpn.schmidbauer.cz" target="_blank">VPN</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://cloud.schmidbauer.cz" target="_blank">Cloud</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://mail.schmidbauer.cz" target="_blank">Mail</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="intro-small">
+      <h3 class="intro-logo">schmidbauer</h3>
+      <h6 class="intro-header">IT poradenství a služby</h6>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Zdarma VPN</h2>
+      <h5 class="services-security-description">Stačí se zaregistrovat. Blokuje také reklamy.</h5>
+      <hr>
+      <form action="https://formspree.io/myyekgan" method="POST">
+        <label>Tvůj e-mail: <input type="email" name="_email" maxlength="40" size="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
+        <p>Jakmile bude váš účet připraven, obdržíte zprávu.</p>
+        <p>VPN je <strong>opravdu</strong> zdarma. Žádné závazky!</p>
+        <button type="submit" name="free" value="free">Přihlaste se zdarma</button>
+    </div>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Vytvořte profil</h2>
+      <h5 class="services-security-description">CA, certifikát a klíč</h5>
+      <hr>
+      <ul class="services-security">
+        <li>Poslali jsme váš profil a heslo. Na požádání použijte heslo.</li>
+        <li>Nainstalujte <code>ca.pfx</code> a <code> tvůj_at_email.com.pfx</code></li>
+        <li>Ujistěte se, že certifikát CA "<code> vpn.schmidbauer.cz </code>" je označen jako <strong>známý</strong>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Nastavit VPN</h2>
+      <h5 class="services-security-description">Začít hned</h5>
+      <hr>
+      <ul class="services-security">
+        <li>Vytvořte IKEv2 VPN s níže uvedenými nastaveními</li>
+        <li>-</li>
+        <li><strong>Pro Mac: </strong></li>
+        <li><strong>Server</strong>: <code>vpn.schmidbauer.cz</code> </li>
+        <li><strong>Vzdálené ID</strong>: <code>vpn.schmidbauer.cz</code> </li>
+        <li><strong>Local ID</strong>: <code>tvůj_at_email.com</code> </li>
+        <li><strong>Ověřování</strong>: žádné </li>
+        <li><strong>Certifikát</strong>: Vyberte certifikát pomocí <code>your_address_email.com</code> </li>
+        <li><strong>Bezpečně se připojte a surfujte!</strong></li>
+        <li> - </li>
+        <li><strong>Pro Windows</strong>, podívejte se na tuto stránku: <a href="https://wiki.strongswan.org/projects/strongswan/wiki/Win7UserConfig" target="_blank">Anleitung</a></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Fehlt Ihnen etwas?</h2>
+      <h5 class="services-security-description">Laden Sie Ihr Profil runter</h5>
+      <hr>
+      <ul class="services-security">
+        <li>Nemáte svůj profil nebo vám něco schází? Můžete si stáhnout svůj profil </li>
+        <li>Přejděte na <code>https://vpn.schmidbauer.cz/users/<i>ihre_adresse_email.com</i>/</code></li>
+        <li>Přihlaste se pomocí <code>your_address_email.com</code></li>
+        <li> - </li>
+        <li>Stáhněte si .zip pro iPhone / iPad + Windows + Mac</li>
+        <li>Stáhněte si .tgz pro Android + Linux</li>
+        <li>-</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-small security" id="security">
+    <div class="container">
+      <h2 class="services-security-header">Potřebuješ pomoc?</h2>
+      <h5 class="services-security-description">Kontaktujte nás</h5>
+      <hr>
+      <p><a href="https://www.schmidbauer.cz/cz/#contact">Kontaktujte</a> nás telefonicky, e-mailem, WhatsApp ..</p>
+      <p>.. Nebo na webu pro: „Nastavení IKEv2 VPN“<p>
+    </div>
+  </div>
+
+</body>
+</html>
