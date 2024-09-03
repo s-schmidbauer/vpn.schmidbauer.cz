@@ -40,12 +40,8 @@
         <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/en/#services">Services</a></li>
         <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/en/#security">Security</a></li>
         <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/en/#contact">Contact</a></li>
-        <li class="navbar-item-lang"><a class="navbar-link-lang" href="https://vpn.schmidbauer.cz/cz/">CZ</a></li>
-        <li class="navbar-item-lang"><a class="navbar-link-lang" href="https://vpn.schmidbauer.cz/de/">DE</a></li>
         <li class="navbar-item-lang"><a class="navbar-link-lang" href="https://vpn.schmidbauer.cz/en/">EN</a></li>
         <li class="navbar-item-lang"><a class="navbar-link-lang">-</a></li>
-        <li class="navbar-item-special"><a class="navbar-link-special" href="https://stream.schmidbauer.cz" target="_blank">Stream</a></li>
-        <li class="navbar-item-special"><a class="navbar-link-special" href="https://vpn.schmidbauer.cz" target="_blank">VPN</a></li>
         <li class="navbar-item-special"><a class="navbar-link-special" href="https://webmail.schmidbauer.cz" target="_blank">Mail</a></li>
       </ul>
     </div>
@@ -65,12 +61,21 @@
       <form action="https://formspree.io/myyekgan" method="POST">
         <label>Your email: <input type="email" name="_email" maxlength="40" size="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
         <p>You receive a mail once your account is ready.</p>
-        <p>The VPN is <strong>really</strong> free. No obligations!</p>
-        <button type="submit" name="free" value="free">Sign up for free</button>
+        <p>The VPN is free. No obligations.</p>
+        <button type="submit" name="free" value="free">Sign up for free</button></form>
     </div>
   </div>
 
   <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Secure your Internet</h2>
+      <h5 class="services-security-description">Open standards. Transparent configuration.</h5>
+      <hr>
+      <img src="vpn-setup.svg">architechture</img>
+    </div>
+  </div>
+
+<!--   <div class="section-small services" id="services">
     <div class="container">
       <h2 class="services-security-header">Watch the setup</h2>
       <video width="720" height="480" autoplay controls>
@@ -79,7 +84,7 @@
       </video>
       <hr>
     </div>
-  </div>
+  </div> -->
 
   <div class="section-small services" id="services">
     <div class="container">
@@ -87,50 +92,13 @@
       <h5 class="services-security-description">CA, cert and key</h5>
       <hr>
       <ul class="services-security">
-        <li>We've sent you your profile link and password by email. Use the password when asked.</li>
-        <li>Install both the <code>ca.pfx</code> and <code>your_at_email.com.pfx</code></li>
-        <li>Make sure the CA "<code>vpn.schmidbauer.cz</code>" is marked <strong>fully trusted</strong>.</li>
+        <li>We'll sent your VPN profile by email</li>
+        <li>Install WireGuard for your computer or mobile device</li>
+        <li>Import the VPN profile to WireGuard and connect</li>
       </ul>
     </div>
   </div>
 
-  <div class="section-small services" id="services">
-    <div class="container">
-      <h2 class="services-security-header">Setup VPN</h2>
-      <h5 class="services-security-description">Getting things going</h5>
-      <hr>
-      <ul class="services-security">
-        <li>Create a IKEv2 VPN below settings</li>
-        <li>-</li>
-        <li><strong>For Mac</strong></li>
-        <li><strong>Server</strong>: <code>vpn.schmidbauer.cz</code></li>
-        <li><strong>Remote ID</strong>: <code>vpn.schmidbauer.cz</code></li>
-        <li><strong>Local ID</strong>: <code>your_at_email.com</code></li>
-        <li><strong>Authentication</strong>: none</li>
-        <li><strong>Certificate</strong>: Select installed certificate with <code>your_at_email.com</code></li>
-        <li><strong>Connect and surf safely!</strong></li>
-        <li>-</li>
-        <li><strong>For Windows</strong>, check this <a href="https://wiki.strongswan.org/projects/strongswan/wiki/Win7UserConfig" target="_blank">guide</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section-small services" id="services">
-    <div class="container">
-      <h2 class="services-security-header">Missing something?</h2>
-      <h5 class="services-security-description">Download your profile</h5>
-      <hr>
-      <ul class="services-security">
-        <li>Don't have your profile or lost the mail we sent you? You can still download your profile.</li>
-        <li>Go to <code>https://vpn.schmidbauer.cz/users/<i>your@email.com</i>/</code></li>
-        <li>Login with <code>your@email.com</code> and your password</li>
-        <li>-</li>
-        <li>Download .zip for iPhone/iPad + Windows + Mac</li>
-        <li>Download .tgz for Android + Linux</li>
-        <li>-</li>
-      </ul>
-    </div>
-  </div>
 
   <div class="section-small security" id="security">
     <div class="container">
@@ -138,7 +106,6 @@
       <h5 class="services-security-description">Contact us</h5>
       <hr>
       <p>Just <a href="https://www.schmidbauer.cz/en/#contact">contact</a> us by Phone, Email, WhatsApp ..</p>
-      <p>.. Or search the web: "IKEv2 VPN setup"<p>
     </div>
   </div>
 
